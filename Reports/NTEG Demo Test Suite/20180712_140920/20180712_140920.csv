@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+NTEG Demo Test Suite,Firefox 49.0,,2018-07-12 14:09:22,2018-07-12 14:11:07,1m - 45.282s,FAILED
+,,,,,,
+Test Cases/NTEG Demo Test Cases/Alert Test Case/AlertPopup,Firefox 49.0,,2018-07-12 14:09:22,2018-07-12 14:09:34,11.834s,PASSED
+openBrowser,Firefox 49.0,,2018-07-12 14:09:23,2018-07-12 14:09:30,7.442s,PASSED
+navigateToUrl,Firefox 49.0,,2018-07-12 14:09:30,2018-07-12 14:09:33,2.815s,PASSED
+setText,Firefox 49.0,,2018-07-12 14:09:33,2018-07-12 14:09:33,0.324s,PASSED
+click,Firefox 49.0,,2018-07-12 14:09:33,2018-07-12 14:09:34,0.401s,PASSED
+Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(),Firefox 49.0,Get text alert on the alert when it's shown,2018-07-12 14:09:34,2018-07-12 14:09:34,0.076s,PASSED
+verifyMatch,Firefox 49.0,Verify text alert is correct or not,2018-07-12 14:09:34,2018-07-12 14:09:34,0.034s,PASSED
+acceptAlert,Firefox 49.0,,2018-07-12 14:09:34,2018-07-12 14:09:34,0.095s,PASSED
+closeBrowser,Firefox 49.0,,2018-07-12 14:09:34,2018-07-12 14:09:34,0.281s,PASSED
+,,,,,,
+Test Cases/NTEG Demo Test Cases/DragAndDrop Test Case/DragandDrop Testcase,Firefox 49.0,,2018-07-12 14:09:34,2018-07-12 14:09:58,23.638s,PASSED
+openBrowser,Firefox 49.0,,2018-07-12 14:09:34,2018-07-12 14:09:42,7.709s,PASSED
+navigateToUrl,Firefox 49.0,,2018-07-12 14:09:42,2018-07-12 14:09:50,7.657s,PASSED
+dragAndDropToObject,Firefox 49.0,,2018-07-12 14:09:50,2018-07-12 14:09:55,5.618s,PASSED
+Statement - droppable_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DragandDrop/Page_Droppable  jQuery UI (2)/div_Dropped)),Firefox 49.0,Dropped!,2018-07-12 14:09:55,2018-07-12 14:09:58,2.313s,PASSED
+verifyEqual,Firefox 49.0,"Verify if it is actually changed to \""Dropped!\"" because of the drag and drop action.",2018-07-12 14:09:58,2018-07-12 14:09:58,0.006s,PASSED
+closeBrowser,Firefox 49.0,,2018-07-12 14:09:58,2018-07-12 14:09:58,0.237s,PASSED
+,,,,,,
+Test Cases/NTEG Demo Test Cases/iFrame Test Case/iFrame,Firefox 49.0,,2018-07-12 14:09:58,2018-07-12 14:10:44,45.900s,FAILED
+openBrowser,Firefox 49.0,,2018-07-12 14:09:58,2018-07-12 14:10:06,7.860s,PASSED
+navigateToUrl,Firefox 49.0,,2018-07-12 14:10:06,2018-07-12 14:10:11,4.739s,PASSED
+switchToFrame,Firefox 49.0,,2018-07-12 14:10:11,2018-07-12 14:10:44,33.063s,FAILED
+,,,,,,
+Test Cases/NTEG Demo Test Cases/WindowsPopup Test Case/WindowsPopup,Firefox 49.0,,2018-07-12 14:10:44,2018-07-12 14:11:07,23.224s,FAILED
+openBrowser,Firefox 49.0,,2018-07-12 14:10:44,2018-07-12 14:10:52,7.737s,PASSED
+navigateToUrl,Firefox 49.0,,2018-07-12 14:10:52,2018-07-12 14:10:58,6.393s,PASSED
+click,Firefox 49.0,,2018-07-12 14:10:58,2018-07-12 14:10:59,0.579s,PASSED
+switchToWindowTitle,Firefox 49.0,,2018-07-12 14:10:59,2018-07-12 14:11:06,7.867s,PASSED
+setText,Firefox 49.0,,2018-07-12 14:11:06,2018-07-12 14:11:07,0.211s,PASSED
+setText,Firefox 49.0,,2018-07-12 14:11:07,2018-07-12 14:11:07,0.373s,FAILED

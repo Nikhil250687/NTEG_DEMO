@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test Suite" time="52" tests="2" failures="0" errors="0">
+   <testsuite name="Regression Test Suite" tests="2" failures="0" errors="0" time="52" timestamp="2018-07-03 14:03:53" hostname="anamikamukhopadhyay - Anamika4735.Nagarro.local" id="Test Suites/Regression Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anamikamukhopadhyay\\Katalon Studio\\Demo_NTEG\\Reports\\Regression Test Suite\\20180703_140351"/>
+         <property name="logFiles" value="C:\\Users\\anamikamukhopadhyay\\Katalon Studio\\Demo_NTEG\\Reports\\Regression Test Suite\\20180703_140351\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anamikamukhopadhyay - Anamika4735.Nagarro.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 49.0"/>
+         <property name="hostAddress" value="10.175.28.94"/>
+         <property name="sessionId" value="be45022e-4ad8-4dfc-be2c-2bdbb38b2e26"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Page/Login-DemoApp" classname="Test Cases/Login Page/Login-DemoApp" status="PASSED">
+         <system-out><![CDATA[2018-07-03 14:03:54 - [TEST_CASE][PASSED] - Test Cases/Login Page/Login-DemoApp: Test Cases/Login Page/Login-DemoApp
+
+2018-07-03 14:03:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 14:04:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 14:04:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://newtours.demoaut.com/' successfully
+
+2018-07-03 14:04:05 - [MESSAGE][PASSED] - Navigate to 'http://newtours.demoaut.com/' successfully
+
+2018-07-03 14:04:05 - [TEST_STEP][PASSED] - setText: Text 'mercury' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-07-03 14:04:06 - [MESSAGE][PASSED] - Text 'mercury' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-07-03 14:04:06 - [TEST_STEP][PASSED] - setText: Text 'mercury' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-07-03 14:04:06 - [MESSAGE][PASSED] - Text 'mercury' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-07-03 14:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Mercury Tours/input_login' is clicked on
+
+2018-07-03 14:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Mercury Tours/input_login' is clicked on
+
+2018-07-03 14:04:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-03 14:04:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Page/Register New User" classname="Test Cases/Login Page/Register New User" status="PASSED">
+         <system-out><![CDATA[2018-07-03 14:04:20 - [TEST_CASE][PASSED] - Test Cases/Login Page/Register New User: Test Cases/Login Page/Register New User
+
+2018-07-03 14:04:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 14:04:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 14:04:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://newtours.demoaut.com/' successfully
+
+2018-07-03 14:04:30 - [MESSAGE][PASSED] - Navigate to 'http://newtours.demoaut.com/' successfully
+
+2018-07-03 14:04:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Mercury Tours/a_Register' is clicked on
+
+2018-07-03 14:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Mercury Tours/a_Register' is clicked on
+
+2018-07-03 14:04:30 - [TEST_STEP][PASSED] - setText: Text 'firstname' is set on object 'Object Repository/Page_Register Mercury Tours/input_firstName'
+
+2018-07-03 14:04:32 - [MESSAGE][PASSED] - Text 'firstname' is set on object 'Object Repository/Page_Register Mercury Tours/input_firstName'
+
+2018-07-03 14:04:32 - [TEST_STEP][PASSED] - setText: Text 'lastname' is set on object 'Object Repository/Page_Register Mercury Tours/input_lastName'
+
+2018-07-03 14:04:32 - [MESSAGE][PASSED] - Text 'lastname' is set on object 'Object Repository/Page_Register Mercury Tours/input_lastName'
+
+2018-07-03 14:04:32 - [TEST_STEP][PASSED] - setText: Text 'phone' is set on object 'Object Repository/Page_Register Mercury Tours/input_phone'
+
+2018-07-03 14:04:32 - [MESSAGE][PASSED] - Text 'phone' is set on object 'Object Repository/Page_Register Mercury Tours/input_phone'
+
+2018-07-03 14:04:32 - [TEST_STEP][PASSED] - setText: Text 'email' is set on object 'Object Repository/Page_Register Mercury Tours/input_userName'
+
+2018-07-03 14:04:32 - [MESSAGE][PASSED] - Text 'email' is set on object 'Object Repository/Page_Register Mercury Tours/input_userName'
+
+2018-07-03 14:04:32 - [TEST_STEP][PASSED] - setText: Text '123, b block' is set on object 'Object Repository/Page_Register Mercury Tours/input_address1'
+
+2018-07-03 14:04:32 - [MESSAGE][PASSED] - Text '123, b block' is set on object 'Object Repository/Page_Register Mercury Tours/input_address1'
+
+2018-07-03 14:04:32 - [TEST_STEP][PASSED] - setText: Text 'Sacramento' is set on object 'Object Repository/Page_Register Mercury Tours/input_city'
+
+2018-07-03 14:04:33 - [MESSAGE][PASSED] - Text 'Sacramento' is set on object 'Object Repository/Page_Register Mercury Tours/input_city'
+
+2018-07-03 14:04:33 - [TEST_STEP][PASSED] - setText: Text 'California' is set on object 'Object Repository/Page_Register Mercury Tours/input_state'
+
+2018-07-03 14:04:33 - [MESSAGE][PASSED] - Text 'California' is set on object 'Object Repository/Page_Register Mercury Tours/input_state'
+
+2018-07-03 14:04:33 - [TEST_STEP][PASSED] - setText: Text '20123' is set on object 'Object Repository/Page_Register Mercury Tours/input_postalCode'
+
+2018-07-03 14:04:33 - [MESSAGE][PASSED] - Text '20123' is set on object 'Object Repository/Page_Register Mercury Tours/input_postalCode'
+
+2018-07-03 14:04:33 - [TEST_STEP][PASSED] - setText: Text 'username' is set on object 'Object Repository/Page_Register Mercury Tours/input_email'
+
+2018-07-03 14:04:33 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/Page_Register Mercury Tours/input_email'
+
+2018-07-03 14:04:33 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/Page_Register Mercury Tours/input_password'
+
+2018-07-03 14:04:34 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Page_Register Mercury Tours/input_password'
+
+2018-07-03 14:04:34 - [TEST_STEP][PASSED] - setText: Text 'confirmpassword' is set on object 'Object Repository/Page_Register Mercury Tours/input_confirmPassword'
+
+2018-07-03 14:04:34 - [MESSAGE][PASSED] - Text 'confirmpassword' is set on object 'Object Repository/Page_Register Mercury Tours/input_confirmPassword'
+
+2018-07-03 14:04:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Register Mercury Tours/input_register' is clicked on
+
+2018-07-03 14:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register Mercury Tours/input_register' is clicked on
+
+2018-07-03 14:04:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-03 14:04:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 14:03:53 - [TEST_SUITE][PASSED] - Regression Test Suite: Test Cases/Login Page/Register New User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
