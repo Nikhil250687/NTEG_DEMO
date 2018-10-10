@@ -30,5 +30,7 @@ WebUI.setText(findTestObject('Mercury Demo App OR/Page_Welcome Mercury Tours/inp
 
 WebUI.click(findTestObject('Mercury Demo App OR/Page_Welcome Mercury Tours/input_login'))
 
+//Close the browser
+
 WebUI.closeBrowser()
 
