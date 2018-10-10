@@ -32,5 +32,6 @@ WebUI.click(findTestObject('Mercury Demo App OR/Page_Welcome Mercury Tours/input
 
 //Close the browser
 
+// Making changes for git
 WebUI.closeBrowser()
 
